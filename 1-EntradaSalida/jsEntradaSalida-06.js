@@ -14,6 +14,11 @@ function sumar()
 	resultado=primerdato+segundodato
 
 
-	alert(resultado);
+	alert("El resultado es : " + resultado);
+
+	document.getElementById("txtIdNumeroUno").value="";
+	document.getElementById("txtIdNumeroDos").value="";
+
+
 }
 
