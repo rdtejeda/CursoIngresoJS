@@ -1,5 +1,5 @@
 	/*AUTOR: TEJEDA ROBERTO
-	ENUNCIADO: E/S TP01
+	ENUNCIADO: E/S P1
 
 	Enunciado:
 Bienvenidos.

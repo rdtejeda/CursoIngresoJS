@@ -1,4 +1,8 @@
 /*
+
+	AUTOR: TEJEDA ROBERTO
+	ENUNCIADO: E/S Ej. 10
+
 Debemos lograr tomar el importe por ID.
 Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
