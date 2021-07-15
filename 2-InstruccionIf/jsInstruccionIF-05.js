@@ -14,8 +14,4 @@ function mostrar()
 	{
  	alert("ud. no es adolecente");
 	}
-	else
-	{
-		alert("ud. es adolecente");
-	}
 }

@@ -9,12 +9,25 @@ Al ingresar una edad menor a 18 años
  'Es muy pequeño para NO ser soltero.'
 */
 function mostrar()
+/*
 {
 	var laEdad;
 	var elEstado;
 	laEdad=parseInt(document.getElementById("txtIdEdad").value);
 	elEstado=document.getElementById("estadoCivil").value;
 		if (elEstado!="Soltero" && laEdad<18)
+	{
+ 	alert("Es muy pequeño para NO ser soltero.");
+	}
+}
+*/
+{
+	var laEdad;
+	var elEstado;
+	laEdad=parseInt(document.getElementById("txtIdEdad").value);
+	elEstado=document.getElementById("estadoCivil").value;
+	var edadvalida=laEdad<18 && laEdad>=0
+		if (elEstado!="Soltero" && edadvalida)
 	{
  	alert("Es muy pequeño para NO ser soltero.");
 	}
