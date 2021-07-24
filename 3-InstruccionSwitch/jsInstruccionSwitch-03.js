@@ -1,6 +1,6 @@
 /*
 AUTOR: TEJEDA ROBERTO
-ENUNCIADO: Sw Ej. 2
+ENUNCIADO: Sw Ej. 3
 
 Enunciado:
 al seleccionar un mes informar.
@@ -10,6 +10,7 @@ si NO es Febrero: "Este mes tiene 30 o más días"
 function mostrar()
 {
 	var mesDelAño;
+	var mensaje;
 	mesDelAño = document.getElementById("txtIdMes").value;
 	switch (mesDelAño) 
 	{
@@ -24,12 +25,13 @@ function mostrar()
 		case "Octubre":
 		case "Noviembre":
 		case "Diciembre":
-			alert( "Este mes tiene 30 o más días")
+			mensaje = "Este mes tiene 30 o más días";
 			break;
 		case "Febrero":
-			alert (" Este mes no tiene más de 29 días.")
+			mensaje = " Este mes no tiene más de 29 días.";
 			break;
 		default:
 			break;
 	}
+	alert(mensaje);
 }
