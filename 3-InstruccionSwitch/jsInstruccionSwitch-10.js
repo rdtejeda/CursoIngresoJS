@@ -14,7 +14,56 @@ primavera: solo no se viaja a Bariloche
 */
 function mostrar()
 {
-	var estacionIngresada =txtIdEstacion.value;
-	alert(estacionIngresada);
+	var destinoIngresado;
+	var estacion;
+	var seviaja;
+	var noseviaja;
+	var alerta;
 
+	seviaja = "se viaja";
+	noseviaja = "No se viaja";
+	destinoIngresado = document.getElementById("txtIdDestino").value;
+	estacion = document.getElementById("txtIdEstacion").value;
+	
+	switch (estacion)
+	{
+		case "Invierno":
+			switch (destinoIngresado)
+			{
+				case "Bariloche":
+					alerta = seviaja;
+					break;
+				default: //"Cordoba" , "Cataratas" y "Mar del plata"
+					alerta = noseviaja;
+					break;
+			}		
+			break;
+		case "Verano":
+			switch (destinoIngresado)
+			{
+				case "Cataratas":
+				case "Mar del plata":
+					alerta = seviaja;
+					break;
+				default: //"Bariloche" y "Cordoba"
+				alerta = noseviaja;
+					break;
+			}		
+			break;
+		case "Primavera":
+			switch (destinoIngresado)
+			{
+				case "Bariloche":
+					alerta = seviaja;
+					break;
+				default: // y "Cordoba", "Cataratas" y "Mar del plata"
+					alerta = noseviaja;
+					break;
+			}
+			break;
+		default: //"Otoño" 
+			alerta = seviaja;
+			break;
+	}
+	alert(alerta);
 }

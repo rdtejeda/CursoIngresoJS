@@ -1,7 +1,18 @@
+/*
+AUTOR: TEJEDA ROBERTO
+ENUNCIADO: For  Ej. 4
+
+Enunciado:
+al presionar el botón repetir hasta que utilizamos 'BREAK'.
+*/
+
 function mostrar()
 {
-	alert("ok");
+	var i;
+	i=0;
 
-
-
-}//FIN DE LA FUNCIÓN
+		for (i= 0; i>-1; i=i+1) 
+		{
+			alert("repetir");
+		}
+}
