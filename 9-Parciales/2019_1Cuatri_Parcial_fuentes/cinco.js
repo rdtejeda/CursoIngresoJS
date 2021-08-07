@@ -4,7 +4,7 @@ ENUNCIADO: solo switch P5
 
 Enunciado:
 Bienvenidos (SOLO WITCH).
-una empresa de viajes le solicita ingresar que continente le gustaria visitar
+una empresa de viajes le solicita ingresar que dos le gustaria visitar
 y la cantidad de días , la oferta dice que por día se cobra $100 , que se puede pagar de todas las maneras
 Si es América tiene un 50% de descuento y si ademas paga por débito se le agrega un 10% mas de descuento
 Si es África tiene un 60% de descuento y si además paga por mercadoPago o efectivo se le agrega un 15% mas de descuento
